@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SshConfigs">
+    <configs>
+      <sshConfig authType="PASSWORD" host="grp-596.iq.iut21.u-bourgogne.fr" id="bbb797a4-e42e-4a80-a8eb-6a7f20706c74" port="22" nameFormat="DESCRIPTIVE" username="to470040" useOpenSSHConfig="true" />
+    </configs>
+  </component>
+</project>
