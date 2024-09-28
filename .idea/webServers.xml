@@ -3,7 +3,7 @@
   <component name="WebServers">
     <option name="servers">
       <webServer id="1189bc40-db25-4995-bdda-32d642763909" name="grp" url="https://grp-596.iq.iut21.u-bourgogne.fr/vscode/Logiciel-php">
-        <fileTransfer rootFolder="/vscode/Logiciel-php" accessType="SFTP" host="grp-596.iq.iut21.u-bourgogne.fr" port="22" sshConfigId="bbb797a4-e42e-4a80-a8eb-6a7f20706c74" sshConfig="to470040@grp-596.iq.iut21.u-bourgogne.fr:22 password">
+        <fileTransfer rootFolder="/grp-596/vscode/Logiciel-php" accessType="SFTP" host="grp-596.iq.iut21.u-bourgogne.fr" port="22" sshConfigId="bbb797a4-e42e-4a80-a8eb-6a7f20706c74" sshConfig="to470040@grp-596.iq.iut21.u-bourgogne.fr:22 password">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
           </advancedOptions>
