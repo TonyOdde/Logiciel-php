@@ -1,9 +1,11 @@
 <?php
 
-namespace model;
+namespace model\DAO;
 
-require_once 'model/IDAO.php';
-class MessDAO implements IDAO
+use model\interfaces\IDAO;
+
+require_once 'model/interfaces/IDAO.php';
+class MessDAOFromGRP implements IDAO
 {
     private string $_url;
 

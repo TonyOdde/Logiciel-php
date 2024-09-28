@@ -17,13 +17,19 @@ class MessController{
         require_once 'model/MessDAOController.php';
         $this->_view = new MessView();
         $this->_model = new MessDAOController();
-        $this->_message = ' ';
+        $this->_message = '';
     }
 
-    public function displayMessage(){
+    public function displayMessage($typeDAO){
         if(isset($_POST['submit'])){
-            $this->_message = $this->_model->getMessage();
-            $this->_view->displayMessage($this->_message);
+            try {
+                $this->_message = $this->_model->getMessage($typeDAO);
+            }
+            catch (\Exception $e){
+                $this->_message = $e->getMessage();
+            } finally {
+                $this->_view->displayMessage($this->_message);
+            }
         }
     }
 
