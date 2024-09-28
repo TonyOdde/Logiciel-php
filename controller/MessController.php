@@ -2,21 +2,21 @@
 
 namespace controller;
 
-use model\MessModel;
+use model\MessDAOController;
 use views\MessView;
 
 class MessController{
 
     private MessView $_view;
-    private MessModel $_model;
+    private MessDAOController $_model;
 
     private string $_message;
 
     public function __construct(){
         require_once 'views/MessView.php';
-        require_once 'model/MessModel.php';
+        require_once 'model/MessDAOController.php';
         $this->_view = new MessView();
-        $this->_model = new MessModel();
+        $this->_model = new MessDAOController();
         $this->_message = ' ';
     }
 
