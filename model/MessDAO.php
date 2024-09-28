@@ -2,7 +2,6 @@
 
 namespace model;
 
-use model\IDAO;
 require_once 'model/IDAO.php';
 class MessDAO implements IDAO
 {
